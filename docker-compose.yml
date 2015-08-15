@@ -1,0 +1,6 @@
+web:
+  build: .
+  volumes:
+    - .:/sweepsouth_dash
+  ports:
+    - "3000:3030"
