@@ -14,7 +14,7 @@ You can also use these files with your existing dashing project. Copy, ``docker-
 
 Like before, your app is now running on port ``3030`` of your host machine. What if I want to change this? Easy enough. Currently, in ``docker-compose``, we are exposing ``3030:3030``. The one on the left is our host's port and the one on the right is Docker container port. 
 
-To change the host port, say 80, change it to ``80:3030``. Now, you can go to root of your ``host-ip``. 
+To change the host port, say 80, change it to ``80:3030``. Now, you can go to the root of your ``host-ip`` and look at your awesome dashboard! 
 
 
 
