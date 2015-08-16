@@ -8,7 +8,7 @@ RUN apt-get install -qy nginx ruby2.1 ruby2.1-dev nodejs sqlite3 libsqlite3-dev 
 
 RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 RUN apt-get install -y libpq-dev
-RUN mkdir /sweepsouth_dash
-WORKDIR /sweepsouth_dash
-ADD . /sweepsouth_dash
+RUN mkdir /dashboard
+WORKDIR /dashboard
+ADD . /dashboard
 RUN bundle
